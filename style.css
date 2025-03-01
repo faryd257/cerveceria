@@ -1,29 +1,38 @@
+
 body {
   background: url('/imagenes/fondo2.jpeg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   font-family: 'Arial', sans-serif;
 }
+
 h1, h2, h3 {
   color: #ffca28;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
+
 .navbar {
   background-color: #4e342e;
 }
+
 .navbar-brand, .nav-link {
   color: #fff !important;
   font-family: 'Georgia', serif;
 }
+
 .navbar-brand {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
 .nav-link:hover {
   color: #ffcc00 !important;
 }
+
 .nav-link {
   transition: color 0.3s ease-in-out;
 }
@@ -32,6 +41,7 @@ html {
   color: #fff;
   border-color: #ffcc00;
 }
+
 .btn-outline-success:hover {
   background-color: #ffcc00;
   border-color: #ffcc00;
@@ -46,6 +56,7 @@ html {
   text-align: center;
   overflow: hidden;
 }
+
 .seccion-nosotros::before {
   content: '';
   position: absolute;
@@ -54,6 +65,7 @@ html {
   backdrop-filter: blur(8px);
   z-index: 1;
 }
+
 .seccion-nosotros .contenido {
   position: relative;
   z-index: 2;
@@ -66,14 +78,19 @@ html {
   justify-content: center;
   margin-top: 50px;
 }
+
 .custom-carousel {
   width: 50%;
 }
+
+
 .carousel-item img {
   width: 100%;
-  height: 80vh;
+  height: auto;
   object-fit: cover;
+  max-height: 80vh; 
 }
+
 .carousel-caption {
   bottom: 10%;
   font-size: 1rem;
@@ -82,12 +99,18 @@ html {
   border-radius: 5px;
   color: #fff;
 }
+
 .carousel-indicators button {
   background-color: #ffc107;
   border: none;
 }
+
 .carousel-indicators .active {
   background-color: #ffca28;
+}
+
+.puerto{height: 60vh;
+
 }
 .ct {
   background-color: #f8f9fa;
@@ -95,57 +118,75 @@ html {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
 }
+
 .btn-primary:hover {
   background-color: #0056b3;
   border-color: #004085;
 }
+
+
 .seccion {
   padding: 40px 0;
 }
+
 .card {
   border: none;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .card-title {
   font-weight: bold;
   color: #4e342e;
 }
+
 .card-text, .price {
   color: #6c757d;
 }
+
 .price {
   font-weight: bold;
   color: #ffc107;
   font-size: 1.1rem;
 }
+
 .badge {
   font-size: 0.8rem;
   color: #000;
   background: #ffc107;
 }
+
 .btn-warning {
   background-color: #ffc107;
   border: none;
 }
+
 .btn-warning:hover {
   background-color: #ffca28;
   color: #4e342e;
 }
+
+
 footer {
   font-size: 0.9rem;
 }
+
 footer strong {
   color: #ffc107;
 }
+
+
 @media (max-width: 768px) {
   .custom-carousel {
     width: 100%;
   }
+  
   .seccion {
     padding: 20px 0;
   }
